@@ -1,0 +1,13 @@
+	# Synthesis: Choose excitation technique and related parameters:
+		USE_PULSE_LIBRARY = 		true;
+		PULSE_LIBRARY_NAME = 		"../pulse_libraries/pulselib1/pulselib1";
+
+	# Synthesis: Pulse library PCA:
+		USE_PULSELIB_PCA =		true;
+		PCA_ORDER =			12;
+		PCA_ORDER_SYNTHESIS =		12;
+		PCA_SPECTRAL_MATCHING = 	true;
+		PCA_PULSE_LENGTH = 		800;
+
+
+

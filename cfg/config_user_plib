@@ -1,0 +1,15 @@
+	# Synthesis: Choose excitation technique and related parameters:
+		USE_PULSE_LIBRARY = 		true;
+		PULSE_LIBRARY_NAME = 		"../pulse_libraries/pulselib1/pulselib1";
+		NORMALIZE_PULSELIB = 		false;
+		USE_PULSE_CLUSTERING = 		false;
+		USE_PULSE_INTERPOLATION = 	true;
+		AVERAGE_N_ADJACENT_PULSES = 	0;
+		ADD_NOISE_PULSELIB = 		true;
+		MAX_PULSES_IN_CLUSTER = 	2000;
+		NUMBER_OF_PULSE_CANDIDATES = 	200;
+		PULSE_ERROR_BIAS = 		0.3;
+		CONCATENATION_COST = 		1.0;
+		TARGET_COST = 			1.0;
+		PARAMETER_WEIGHTS = 		[0.0, 1.0, 1.0, 2.0, 3.0, 5.0, 1.0, 1.0, 1.0, 0.0];
+		# Parameter names   		[LSF  SRC  HARM HNR  GAIN F0   WAV  H1H2 NAQ  PCA]

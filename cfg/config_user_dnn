@@ -1,0 +1,9 @@
+	# Synthesis: DNN pulse generation
+		USE_DNN_PULSEGEN =		true;
+		USE_DNN_PULSELIB_SEL =		false;
+		USE_DNN_SPECMATCH = 		false;
+		DNN_WEIGHT_PATH = 		"../DNNTrain/dnnw/";
+		DNN_WEIGHT_DIMS = 		[48, 200, 201, 200, 201, 400];
+		DNN_INPUT_NORMALIZED =		true;
+		DNN_NUMBER_OF_STACKED_FRAMES =	1;
+

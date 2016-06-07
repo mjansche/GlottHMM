@@ -1,0 +1,4 @@
+	# Synthesis: Single pulse
+		GLOTTAL_PULSE_NAME = 		"../pulses/gpulse_2pp";
+		TWO_PITCH_PERIOD_DIFF_PULSE = 	true;
+		NOISE_LOW_FREQ_LIMIT = 		300.0;	# Hz

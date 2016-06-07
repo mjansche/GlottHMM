@@ -1,0 +1,21 @@
+0. Unpack GlottHMM to your preferred folder.
+
+1. Go to folder 'src' and type 'make' to compile Analysis and Synthesis. Type 'make install' to copy binaries to 'bin'.
+
+2. Go to folder 'scripts', start Matlab, and run 'analysis_synthesis_example.m' to test Analysis and Synthesis. This and the following examples will use a single speech file in folder 'wav'.
+
+3. Run 'create_pulse_library.m' in Matlab to build a pulse library. Run also 'pulselib2separate_pulses.m' to save the extracted pulses into individual files.
+
+4. Run 'pulselib_pca.m' in Matlab to decompose pulse library and speech data into principal components and corresponding weights using PCA.
+
+5. Run 'create_dnn_training_data.m' in Matlab to create data for DNN training.
+
+6. Go to folder DNNTrain and run 'TrainDNN.m' in Matlab to train a DNN-based voice source model. Wait for convergence.
+
+7. After convergence, run 'TestDNN.m' in Matlab to test the DNN.
+
+8. Save DNN weight into file by running 'save_weights.m' in Matlab.
+
+9. Go to folder 'scripts' again and run 'synthesis_example.m' in Matlab to perform analysis-synthesis using the various voice source modeling methods (synthesis using single pulse, pulse library, PCA pulse, DNN-based voice source model, 2-pitch period pulse from the pulse library, and synthesis without IAIF).
+
+10. These examples only aim to demonstrate how to use the methods. Experiment with GlottHMM and related methods with your preferred speech data. For more information, read the GlottHMM manual. Have fun!

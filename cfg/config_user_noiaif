@@ -1,0 +1,4 @@
+	# Analysis: Parameters for spectral modeling:
+		USE_IAIF = 			false;
+		USE_MOD_IAIF = 			false;		# Modified version of IAIF
+		LP_METHOD = 			"LPC";		# Select between "LPC" / "WLP" / "XLP"
